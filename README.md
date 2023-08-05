@@ -30,7 +30,7 @@ You can easily add mobile responsiveness to Decap CMS/Netlify CMS by linking the
 ```html
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/hithismani/responsive-decap@main/dist/responsive.css"> <!-- Unminfied -->
 
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/hithismani/responsive-decap@main/dist/responsive.css"> <!-- Minified -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/hithismani/responsive-decap@main/dist/responsive.min.css"> <!-- Untested, but Minified -->
 ```
 
 ## Troubleshooting
