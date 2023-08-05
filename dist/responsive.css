@@ -1,0 +1,145 @@
+/**
+Adapted From Source: https://gist.github.com/searls/7fd2c3223571a58a81006e7da66bd064
+*/
+
+@media (max-width: 799px) {
+    /* Bring Any Dropdown To Center Of Page */
+
+    [class*=DropdownList]{
+      position: fixed;
+      min-width: 20%;
+      width: 90%;
+      margin: auto;
+      height: fit-content;
+      top: auto;
+      left: 0;
+      right: 0;
+      bottom: 10px;
+      background: #e6f4fd;
+      border: 2px solid #3a69c7;
+  }
+
+  /* Add Overflow To Modal Window */
+    [class*=StyledModal]{
+        width: 90dvw;
+        width: 90%;
+    }
+  
+  
+
+    [class*=LibraryTitle]{
+    display: none;
+    }
+
+    [class*=CollectionTopNewButton]{
+      padding: 0px 10px !important;
+      height: auto;
+    }
+
+    [class*=LibraryTop]{
+      overflow-x: auto;
+      height: fit-content;
+      padding-bottom: 10px;
+    }
+
+
+    /* Hide Blog Post Title From Navbar */ 
+    [class*=BackCollection]{
+        display: none;
+    }
+
+    /* Add Padding To Control Pane */ 
+    [class*=ControlPaneContainer] {
+      padding: 0px 10px;
+    }
+
+    /* Rest As Per: Searl's Code*/
+
+    [class*=BackCollection],
+    [class*=BackStatus] {
+      font-size: .6rem;
+    }
+  
+    [class*=AppHeaderContent],
+    [class*=AppMainContainer] {
+      margin-right: 0;
+      margin-left: 0;
+      min-width: calc(100vw - 24px);
+      max-width: 100vw;
+    }
+  
+    [class*=AppHeaderContent] {
+      display: flex;
+      justify-content: space-between;
+    }
+  
+    [class*=AppHeaderQuickNewButton] {
+      width: 100%;
+    }
+  
+    [class*=AppHeaderButton] {
+      padding-left: 4px;
+      padding-right: 4px;
+    }
+  
+    [class*=EditorContainer],
+    [class*=ToolbarContainer] {
+      min-width: initial;
+      overflow-x: auto;
+    }
+  
+    [class*=ToolbarSubSectionFirst] {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    [class*=PublishedToolbarButton] {
+      padding: 0 8px;
+    }
+  
+    [class*=PublishedToolbarButton]::after {
+      display: none;
+    }
+
+    [class*=ToolbarSubSectionFirst] {
+      flex-direction: row;
+    }
+  
+    [class*=SearchInput] {
+      margin-top: 5px;
+    }
+  
+    [class*=ViewControls] {
+      position: initial;
+    }
+  
+    [class*=PreviewPaneContainer-ControlPaneContainer] {
+      padding: 0;
+    }
+  
+    [class*=ControlPaneContainer] {
+      max-width: 100vw;
+    }
+  
+  
+    [class*=EditorControlBar] [class*=ToolbarContainer] {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    [class*=CollectionContainer] {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    [class*=SidebarContainer] {
+      position: initial;
+      width: initial;
+    }
+  
+    [class*=CollectionMain] {
+      padding-left: 0;
+      margin-top: 20px;
+    }
+  
+  }
